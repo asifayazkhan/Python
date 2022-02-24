@@ -4,7 +4,7 @@ alph = "abcdefghijklmnopqrstuvwxyz"
 capalp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 sp = "@#$%&*}{"
 password = num+alph+capalp+sp
-dig = 10
+dig = 11
 
 pas = "".join(random.sample(password,dig))
 print("your password is :  ",pas)
